@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+
+.grid{
+    display: grid;
+    gap : 4.2rem;
+}
+
+.grid-2-cols{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid-3-cols{
+    grid-template-columns: repeat(3,1fr);
+}
+
+.grid-4-cols{
+    grid-template-columns: repeat(4,1fr);
+}
+
+.flex{
+    display: flex;
+    gap : 4.2rem;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    gap : 4.2rem;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

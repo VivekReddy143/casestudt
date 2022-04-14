@@ -1,0 +1,19 @@
+<div class="container grid grid-2-cols">
+
+    <div class="timer-app">
+        <app-timer [counter]="counter" [timerStop]="timerStop"></app-timer>
+    </div>
+
+    <div>
+        <app-timer-input [counter]="counter" (timer)="inputEmitter($event)" (pauseTimer)="pauseEmitter($event)"></app-timer-input>
+    </div>
+
+    <div>
+        <app-log-input-timer [timings]="timings"></app-log-input-timer>
+    </div>
+
+    <div>
+        <app-log-timer [noOfStarts]="noOfStarts" [noOfPaused]="noOfPaused"></app-log-timer>
+    </div>
+
+</div>

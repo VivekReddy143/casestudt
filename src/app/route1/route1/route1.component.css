@@ -1,0 +1,61 @@
+.container{
+    max-width: 130rem;
+    height: 70rem;
+    margin : 6rem auto;
+    border : 2px solid;
+    padding: 5rem 5rem;
+}
+
+.container-1{
+    max-width: 120rem;
+    height: 60rem;
+    border : 2px solid;
+    padding: 5rem 5rem;
+}
+
+.container-2{
+    max-width: 110rem;
+    height: 50rem;
+    border : 2px solid;
+    padding: 5rem 5rem;
+}
+
+.container-3{
+    max-width: 100rem;
+    height: 40rem;
+    border : 2px solid;
+    padding: 5rem 5rem;
+}
+
+.container-4{
+    max-width: 90rem;
+    height: 30rem;
+    border : 2px solid;
+    padding: 5rem 5rem;
+}
+.container-5{
+    max-width: 80rem;
+    height: 20rem;
+    border : 2px solid;
+    padding: 5rem 5rem;
+
+    font-size: 4.2rem;
+    
+    
+}
+
+span:before {
+	content: 'A text has to be Float';
+	text-transform: uppercase;
+	font-family: arial;
+	color: #1B1464;
+    position: relative;
+    animation: text-float 3s infinite;  
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes text-float {
+    from {left: 0px;}
+    to {left: 20rem;}
+}

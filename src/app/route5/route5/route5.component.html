@@ -1,0 +1,20 @@
+<table class="table" matSort (matSortChange)="sortData($event)">
+    <tr class="table-row">
+        <th *ngFor="let i of objectKeys" mat-sort-header="{{i}}">{{i}}</th>
+    </tr>
+  
+    <tr *ngFor="let i of sortedData">
+      <td>{{i.Name}}</td>
+      <td>{{i.Class}}</td>
+      <td>{{i.Section}}</td>
+      
+      <td>{{i.Maths}}</td>
+      <td>{{i.Physics}}</td>
+      <td>{{i.English}}</td>
+      <td>{{i.Hindi}}</td>
+      <td>{{i.Biology}}</td>
+      <td>{{i.Social}}</td>
+     
+      
+    </tr>
+  </table>

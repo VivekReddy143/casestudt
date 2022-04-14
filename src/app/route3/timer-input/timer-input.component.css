@@ -1,0 +1,28 @@
+.input-class {
+    margin-bottom: 1.6rem;
+}
+
+.btn {
+    padding: 1.2rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.ml-10 {
+    margin-left : 1.6rem;
+}
+
+.mb-10{
+    margin-bottom: 1.6rem;
+}
+
+.input-model {
+   
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 7px 0;
+}
+
+.log-timer{
+    font-size: 1.6rem;
+}

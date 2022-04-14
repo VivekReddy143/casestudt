@@ -1,0 +1,5 @@
+<div id="mainDiv">
+    <div class="insideDivs" *ngFor="let divData of totalDivs; let i = index">
+        <button class="btn" (click)="onBtnClick(i)">{{i}}</button>
+    </div>
+</div>

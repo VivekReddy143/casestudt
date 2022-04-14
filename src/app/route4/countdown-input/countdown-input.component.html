@@ -1,0 +1,23 @@
+
+
+<div class="mb-10">
+    <form>
+        <div class="input-class">
+            <input class="input-model" [(ngModel)]="timerInput" name="timerInput" type="number">
+        </div>
+
+        <div>
+            <span>
+                <button class="btn" type="submit" (click)="getEmit()">Start/Pause</button>
+
+            </span>
+
+            <!-- <span class="ml-10">
+                <button class="btn" type="submit" (click)="reset()">Reset</button> 
+            </span> -->
+        </div>
+     </form>
+    <!-- <input (input)="msg=getVal($event.target)" /> -->
+    
+</div>
+
